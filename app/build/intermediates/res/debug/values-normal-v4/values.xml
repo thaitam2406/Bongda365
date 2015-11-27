@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/src/main/res/values-normal/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="header_menu_height">45dp</dimen>
+    <dimen name="item_contents_footer_height">40dp</dimen>
+    <dimen name="item_contents_footer_padding">5dp</dimen>
+    <dimen name="item_contents_footer_text_size">16sp</dimen>
+    <dimen name="item_contents_margin_bottom">10dp</dimen>
+    <dimen name="item_padding1">5dp</dimen>
+    <dimen name="item_padding2">5dp</dimen>
+    <dimen name="item_title_padding">10dp</dimen>
+    <dimen name="item_title_size">22sp</dimen>
+    <dimen name="item_title_size_sub">18sp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="text_size_item">18dp</dimen>
+    <dimen name="text_size_itemSub">16dp</dimen>
+    <dimen name="text_size_item_detail">18px</dimen>
+    <dimen name="text_size_item_header">18dp</dimen>
+    <dimen name="text_size_slide_menu">15dp</dimen>
+</resources>

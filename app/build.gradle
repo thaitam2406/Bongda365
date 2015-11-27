@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+    sourceSets.main {
+        jniLibs.srcDirs = ['libs']
+    }
+    defaultConfig {
+        applicationId "com.tamhuynh.bongda365"
+        minSdkVersion 14
+        targetSdkVersion 14
+        versionCode 2
+        versionName "2.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile project(':libraries:SlidingMenu')
+    compile project(':libraries:vitamio')
+    compile project(':libraries:book_lib')
+    compile project(':libraries:facebook')
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
+    compile files('libs/gson-2.2.4.jar')
+    compile files('libs/volley.jar')
+    compile files('libs/simple-facebook-2.2.jar')
+    compile fileTree(dir: '../main/libs', include: '*.so')
+}
+task copyNativeLibs(type: Copy) {
+    from(new File(project(':libraries:vitamio').getProjectDir(), 'libs')) { include '**/*.so' }
+    into new File(projectDir, 'native-libs')
+}
+
+tasks.withType(JavaCompile) { compileTask -> compileTask.dependsOn copyNativeLibs }
+
+clean.dependsOn 'cleanCopyNativeLibs'
+
+tasks.withType(com.android.build.gradle.tasks.PackageApplication) { pkgTask ->
+
+   pkgTask.jniFolders = new HashSet<File>()
+   pkgTask.jniFolders.add(new File(projectDir, 'native-libs'))
+//    pkgTask.jniFolders new File(buildDir, 'native-libs')
+}

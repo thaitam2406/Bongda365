@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="?attr/headerBackground"
+             android:orientation="vertical" >
+    <!-- <ScrollView -->
+    <library.view.ScrollViewExt
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/llDetails"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="5"
+                android:textColor="?attr/headerTitle"
+                android:textSize="@dimen/item_title_size"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal" >
+
+                <library.view.ImageViewRounded
+                    android:id="@+id/imgSourceIcon"
+                    style="@style/item_thumbnail_copy_right" />
+
+                <TextView
+                    android:id="@+id/tvSourceName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textColor="?attr/headerTitle"
+                    />
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textColor="?attr/headerTitle"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_subTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingBottom="15dp"
+                android:textColor="?attr/headerTitle"
+                android:textSize="@dimen/item_title_size_sub"/>
+        </LinearLayout>
+    </library.view.ScrollViewExt>
+    <!--    </ScrollView> -->
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+    <library.view.ToolbarView
+        android:id="@+id/toolbarView"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_gravity="bottom|right"
+        android:layout_height="wrap_content">
+
+        </library.view.ToolbarView>
+
+
+    <include layout="@layout/progess_bar_customize"/>
+
+</FrameLayout>

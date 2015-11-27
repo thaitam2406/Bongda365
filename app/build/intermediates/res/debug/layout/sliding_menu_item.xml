@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="?attr/headerBackground"
+              android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/home_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <library.view.ImageViewCrop
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_video_goal"
+            />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:text="@string/menu_item_home"
+            android:textSize="@dimen/text_size_item"
+            android:textColor="?attr/article_selector_attr"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bookmark_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="firstItem"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <library.view.ImageViewCrop
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_video_goal"
+            />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:text="@string/menu_item_bookmark"
+            android:textSize="@dimen/text_size_item"
+            android:textColor="?attr/article_selector_attr"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/first_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="firstItem"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <library.view.ImageViewCrop
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_video_goal"
+            />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:text="@string/menu_item_video_goal"
+            android:textSize="@dimen/text_size_item"
+            android:textColor="?attr/article_selector_attr"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/second_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <library.view.ImageViewCrop
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_video_goal"
+            />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:text="@string/menu_item_schedule"
+            android:textSize="@dimen/text_size_item"
+            android:textColor="?attr/article_selector_attr"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/third_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <library.view.ImageViewCrop
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_video_goal"
+            />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:text="@string/menu_item_schedule_today"
+            android:textSize="@dimen/text_size_item"
+            android:textColor="?attr/article_selector_attr"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/result_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <library.view.ImageViewCrop
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_video_goal"
+            />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:text="@string/menu_item_result_matched"
+            android:textSize="@dimen/text_size_item"
+            android:textColor="?attr/article_selector_attr"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/four_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <library.view.ImageViewCrop
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_video_goal"
+            />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:text="@string/menu_item_ranking"
+            android:textSize="@dimen/text_size_item"
+            android:textColor="?attr/article_selector_attr"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/five_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <library.view.ImageViewCrop
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_video_goal"
+            />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:text="@string/menu_item_video_football"
+            android:textSize="@dimen/text_size_item"
+            android:textColor="?attr/article_selector_attr"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/setting_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <library.view.ImageViewCrop
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_video_goal"
+            />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:text="@string/menu_item_setting"
+            android:textSize="@dimen/text_size_item"
+            android:textColor="?attr/article_selector_attr"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/src/main/res/layout/sliding_menu_item.xml -->

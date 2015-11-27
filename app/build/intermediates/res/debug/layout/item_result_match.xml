@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical"
+              android:clickable="true"
+              android:paddingBottom="5dp"
+              android:orientation="horizontal">
+`
+    <LinearLayout
+        android:id="@+id/ll_time"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:background="?headerScheduleFootball"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_date_match"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="3dp"
+            android:text="1/12"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_item"/>
+        <TextView
+            android:id="@+id/tv_time_match"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginRight="3dp"
+            android:text="19:45"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_item"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:background="?attr/headerBackground"
+        android:layout_marginRight="5dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/ll1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@+id/ll_time"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_name_team_left"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_gravity="center_vertical"
+                android:text="SunderLand"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/img_ic_team_left"
+                android:ellipsize="marquee"
+                android:textColor="?attr/headerTitle"
+                android:textSize="@dimen/text_size_itemSub"/>
+
+            <library.view.ImageViewCrop
+                android:id="@+id/img_ic_team_left"
+                style="@style/item_thumbnail_copy_right"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"/>
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="0-0"
+            android:textColor="?attr/headerTitle"
+            android:textSize="@dimen/text_size_itemSub"/>
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <library.view.ImageViewCrop
+                android:id="@+id/img_ic_team_right"
+                style="@style/item_thumbnail_copy_right"
+                android:layout_gravity="center_vertical"
+                />
+
+            <TextView
+                android:id="@+id/tv_name_team_right"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:layout_gravity="center_vertical"
+                android:text="SunderLand"
+                android:textColor="?attr/headerTitle"
+                android:textSize="@dimen/text_size_itemSub"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+<!-- From: file:/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/src/main/res/layout/item_result_match.xml -->

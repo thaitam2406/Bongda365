@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btn_header_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onclickToggle"
+            android:scaleType="centerInside"
+            android:background="@drawable/slide_menu_ic_white"
+            android:visibility="visible"/>
+
+        <ImageView
+            android:id="@+id/btn_header_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onclickBackHeaderMenu"
+            android:scaleType="centerInside"
+            android:background="@drawable/btn_back_header_menu"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_title_header_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="test"
+        android:textSize="@dimen/text_size_item_header"
+        android:textStyle="bold"/>
+</RelativeLayout>
+<!-- From: file:/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/src/main/res/layout/header_menu_youtube.xml -->

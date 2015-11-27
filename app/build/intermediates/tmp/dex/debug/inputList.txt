@@ -1,0 +1,14 @@
+/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/classes/debug
+/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-d650d1befcb8a488a829813c0593a6d797cd502f.jar
+/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/classes-19214e54ee93583c86b660817833840856bb44df.jar
+/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-60d436c1fe080deb60265d45a75c8561c0908a6f.jar
+/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/classes-65d464911d9a824f3c854becec94b4f5ed4b07fe.jar
+/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/volley-c6820a97daa01f61970837baf7474c48d464aca9.jar
+/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi-43d2c59ca51cf730aa33ebc55d9bfbb3f03d0f0f.jar
+/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/classes-a5a88f795c9c60be2aa8569bbc7311f84a544112.jar
+/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/simple.facebook-2.2-3879ebd5a619f52988ba3335768498df6623745d.jar
+/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/gson-2.2.4-a327b9d006e27cfae9d68b6f72490e2baf957798.jar
+/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-94f4123bf9294781878da0d815cb95ad370f10c4.jar
+/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/classes-20d6e034d9e5f5f8198912dadf655209b8f01b10.jar
+/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/classes-3ddbe251ab97d2da1a5494126516c092a2414798.jar
+/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/classes-24998c1a45e6019d02228025b84cdd486a471eea.jar

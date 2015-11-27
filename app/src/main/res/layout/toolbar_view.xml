@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom|right"
+              android:gravity="center_vertical"
+              android:orientation="horizontal">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/color_bg_title_cat_white"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/footerSetting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <library.view.ImageViewOptimize
+                android:id="@+id/webview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_press"
+                android:clickable="true"
+                android:contentDescription="@string/app_name"
+                android:padding="10dp"
+                android:src="@drawable/icon_social_forward"/>
+
+            <library.view.ImageViewOptimize
+                android:id="@+id/footerFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_press"
+                android:clickable="true"
+                android:contentDescription="@string/app_name"
+                android:padding="10dp"
+                android:src="@drawable/icon_font"/>
+
+            <library.view.ImageViewOptimize
+                android:id="@+id/img_bookmark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_press"
+                android:clickable="true"
+                android:contentDescription="@string/app_name"
+                android:padding="10dp"
+                android:src="@drawable/icon_bookmark"/>
+
+            <library.view.ImageViewOptimize
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_press"
+                android:clickable="true"
+                android:contentDescription="@string/app_name"
+                android:padding="10dp"
+                android:src="@drawable/icon_share"/>
+
+            <library.view.ImageViewOptimize
+                android:id="@+id/icon_fb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_press"
+                android:clickable="true"
+                android:contentDescription="@string/app_name"
+                android:padding="10dp"
+                android:src="@drawable/icon_fb"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <library.view.ImageViewOptimize
+        android:id="@+id/footerImgShowSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color_bg_title_cat_white"
+        android:clickable="true"
+        android:contentDescription="@string/app_name"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/icon_right"/>
+</LinearLayout>

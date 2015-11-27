@@ -1,0 +1,4 @@
+include ":libraries:SlidingMenu", ':App'
+include ":libraries:vitamio", ':App'
+include ":libraries:book_lib", ':App'
+include ":libraries:facebook", ':App'

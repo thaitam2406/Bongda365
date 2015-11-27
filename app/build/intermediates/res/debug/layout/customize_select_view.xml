@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="horizontal">
+
+    <library.view.TouchHighlightTextView
+        android:id="@+id/tv1"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_blue_default"
+        android:onClick="onClickTv1"
+        android:textSize="@dimen/text_size_item_header"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/light_text"/>
+
+    <library.view.TouchHighlightTextView
+        android:id="@+id/tv2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="@color/gray"
+        android:textSize="@dimen/text_size_item_header"
+        android:gravity="center"
+        android:onClick="onClickTv2"
+        android:text="@string/dark_text"/>
+</LinearLayout>
+<!-- From: file:/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/src/main/res/layout/customize_select_view.xml -->

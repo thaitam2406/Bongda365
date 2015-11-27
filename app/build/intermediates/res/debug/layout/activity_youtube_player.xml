@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2012 Google Inc. All Rights Reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+      class="library.youtube.YoutubePlayerActivity$ActionBarPaddedFrameLayout"
+      android:id="@+id/view_container"
+      android:layout_width="match_parent"
+      android:background="?attr/headerBackground"
+      android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <fragment
+            android:id="@+id/player_fragment"
+            android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+            android:layout_width="match_parent"
+            android:layout_weight="4.5"
+            android:layout_height="0dp"/>
+        <ListView
+            android:id="@+id/lv_related_video"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5.5"
+            android:divider="@color/gray"
+            android:dividerHeight="1dp">
+        </ListView>
+
+    </LinearLayout>
+
+</view>
+<!-- From: file:/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/src/main/res/layout/activity_youtube_player.xml -->

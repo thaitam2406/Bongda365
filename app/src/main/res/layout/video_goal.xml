@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:background="?attr/headerBackground"
+                android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/lv_video_goal_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@color/gray"
+        android:dividerHeight="1dp">
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/view_group_progressbar"
+        android:layout_width="fill_parent"
+        android:visibility="gone"
+        android:layout_height="fill_parent">
+
+        <ProgressBar
+            android:id="@+id/progressbar_video_goal_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dip"
+            android:indeterminateDrawable="@drawable/my_progress_indeterminate"/>
+    </RelativeLayout>
+
+</RelativeLayout>

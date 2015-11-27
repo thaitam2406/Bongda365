@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="?attr/headerBackground"
+              android:layout_weight="10"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:weightSum="1"
+        >
+
+
+        <library.view.TouchHighlightImageView
+            android:id="@+id/v1_main_image"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:clickable="true"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/v1_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/v1_main_image"
+                android:clickable="true"
+                android:maxLines="4"
+                android:padding="@dimen/item_title_padding"
+                android:textColor="?attr/headerTitle"
+                android:textSize="@dimen/item_title_size"
+                android:textStyle="bold"/>
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_above="@+id/v1_footer"
+                android:layout_below="@+id/v1_title"
+                android:layout_weight="0.3">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/v1_sub_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:paddingLeft="@dimen/item_title_padding"
+                        android:paddingRight="@dimen/item_title_padding"
+                        android:textColor="?attr/headerTitle"
+                        android:textSize="@dimen/item_title_size_sub"/>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray2"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+
+        <LinearLayout
+            android:id="@+id/v1_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <library.view.ImageViewRounded
+                android:id="@+id/v1_source_icon"
+                style="@style/item_thumbnail_copy_right"
+                android:contentDescription="@string/app_name"/>
+
+            <TextView
+                android:id="@+id/v1_source_name_and_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="Dan tri - 1 gio truoc"
+                android:textColor="?attr/headerTitle"/>
+
+            <!--
+               <ImageView
+                android:layout_width="@dimen/item_contents_footer_height"
+                android:layout_height="@dimen/item_contents_footer_height"
+                android:contentDescription="@string/app_name"
+                android:visibility="gone"
+                android:src="@drawable/icon_comment" />
+
+            <TextView
+                android:id="@+id/v1_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:visibility="gone"
+                android:text="1"
+                android:textColor="#696969"
+                android:textSize="@dimen/item_contents_footer_text_size"
+                android:textStyle="bold" />
+            -->
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

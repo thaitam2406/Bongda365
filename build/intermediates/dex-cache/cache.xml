@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/classes-24998c1a45e6019d02228025b84cdd486a471eea.jar" />
+    </item>
+    <item
+        jar="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/exploded-aar/Bongda365.libraries/book_lib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="30d861f6bb8b0b253369bc02c016ed072051001d">
+        <dex dex="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/classes-19214e54ee93583c86b660817833840856bb44df.jar" />
+    </item>
+    <item
+        jar="/Users/tamhuynh/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-60d436c1fe080deb60265d45a75c8561c0908a6f.jar" />
+    </item>
+    <item
+        jar="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/libs/volley.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c53a3c5927a440a37305d4877ad64199da091b97">
+        <dex dex="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/volley-c6820a97daa01f61970837baf7474c48d464aca9.jar" />
+    </item>
+    <item
+        jar="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/exploded-aar/Bongda365.libraries/SlidingMenu/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="76a907315e7e1343a5a31e4faf1ae3b56f8a581e">
+        <dex dex="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/classes-65d464911d9a824f3c854becec94b4f5ed4b07fe.jar" />
+    </item>
+    <item
+        jar="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/exploded-aar/Bongda365.libraries/vitamio/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6f02b44e0b87201abffdc02c7c76d842d82cad38">
+        <dex dex="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/classes-a5a88f795c9c60be2aa8569bbc7311f84a544112.jar" />
+    </item>
+    <item
+        jar="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/exploded-aar/com.facebook.android/facebook/3.22.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2f7f07005c5f1a3d5b9b507a0062d20df67fd03f">
+        <dex dex="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/classes-3ddbe251ab97d2da1a5494126516c092a2414798.jar" />
+    </item>
+    <item
+        jar="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/libs/simple.facebook-2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3e80d7a67d99151098e1a0686713852b3ad62173">
+        <dex dex="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/simple.facebook-2.2-3879ebd5a619f52988ba3335768498df6623745d.jar" />
+    </item>
+    <item
+        jar="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-94f4123bf9294781878da0d815cb95ad370f10c4.jar" />
+    </item>
+    <item
+        jar="/Users/tamhuynh/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-d650d1befcb8a488a829813c0593a6d797cd502f.jar" />
+    </item>
+    <item
+        jar="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29ccfbddf99584bddbaab62c0cf50dcd1c564e43">
+        <dex dex="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi-43d2c59ca51cf730aa33ebc55d9bfbb3f03d0f0f.jar" />
+    </item>
+    <item
+        jar="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/gson-2.2.4-a327b9d006e27cfae9d68b6f72490e2baf957798.jar" />
+    </item>
+    <item
+        jar="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/build/intermediates/pre-dexed/debug/classes-20d6e034d9e5f5f8198912dadf655209b8f01b10.jar" />
+    </item>
+
+</items>

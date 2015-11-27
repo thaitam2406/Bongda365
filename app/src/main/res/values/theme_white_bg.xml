@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.White" parent="android:Theme.Holo.NoActionBar">
+        <item name="headerBackground">@color/white</item>
+        <item name="headerTitle">@color/background_color_black</item>
+        <item name="article_selector_attr">@color/text_selector_black</item>
+        <item name="headerScheduleFootball">@color/red</item>
+        <item name="headerBackgroundCatTitle">@color/color_bg_title_cat_white</item>
+    </style>
+
+</resources>

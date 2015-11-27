@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_below="@+id/frag_header_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        </FrameLayout>
+    <fragment
+        android:id="@+id/frag_header_menu"
+        android:name="library.hearderMenu.HeaderMenuHome"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_menu_height" />
+
+</RelativeLayout>

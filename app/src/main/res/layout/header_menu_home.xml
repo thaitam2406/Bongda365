@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rl_parent"
+                android:background="@color/transparent_80_percent_alpha">
+
+    <RelativeLayout
+        android:id="@+id/rl_btn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btn_header_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/slide_menu_ic_white"
+            android:onClick="onclickToggle"
+            android:scaleType="centerInside"
+            android:visibility="visible"/>
+
+        <ImageView
+            android:id="@+id/btn_header_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_back_header_menu"
+            android:onClick="onclickBackHeaderMenu"
+            android:scaleType="centerInside"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_title_header_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_item_header"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true">
+
+        <Spinner
+            android:id="@+id/spinner_select_league"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:spinnerMode="dropdown"
+            android:visibility="invisible"/>
+        <Spinner
+            android:id="@+id/spinner_select_cat_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:spinnerMode="dropdown"
+            android:visibility="invisible"/>
+        <ImageView
+            android:id="@+id/img_click_selector"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:background="@drawable/ic_launcher"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</RelativeLayout>

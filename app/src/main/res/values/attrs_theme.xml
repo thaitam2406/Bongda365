@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Header Menu -->
+    <attr name="headerBackground" format="reference" />
+    <attr name="headerBackgroundCatTitle" format="reference" />
+    <attr name="headerScheduleFootball" format="reference" />
+    <attr name="headerTitle" format="reference" />
+    <!-- Header Menu -->
+    <attr name="article_selector_attr" format="reference"></attr>
+</resources>

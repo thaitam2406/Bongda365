@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingBottom="5dp"
+    >
+
+    <library.view.ImageViewCrop
+        android:id="@+id/thumbnail_video_goal"
+        android:layout_centerVertical="true"
+        style="@style/item_thumbnail_small"
+        />
+
+    <RelativeLayout
+        android:layout_toRightOf="@+id/thumbnail_video_goal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title_video_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:lines="2"
+            android:gravity="center_vertical"
+            android:ellipsize="end"
+            android:text="title"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_item"/>
+        <TextView
+            android:layout_below="@+id/tv_title_video_list"
+            android:id="@+id/tv_subtitle_video_list"
+            android:layout_width="match_parent"
+            android:textColor="?attr/headerTitle"
+            android:lines="2"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            android:text="subtitlewedwewdw"
+            android:textSize="@dimen/text_size_itemSub"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <TextView
+            android:paddingRight="10dp"
+            android:id="@+id/tv_count_viewer"
+            android:drawableLeft="@drawable/ic_viewer"
+            android:layout_width="wrap_content"
+            android:text="123"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:textSize="@dimen/text_size_itemSub"
+            android:textColor="?attr/headerTitle"
+            android:layout_height="wrap_content"/>
+        <library.view.ImageViewRounded
+            android:layout_toRightOf="@+id/tv_count_viewer"
+            android:id="@+id/thumbnailCopyRight"
+            style="@style/item_thumbnail_copy_right"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_toRightOf="@+id/thumbnailCopyRight"
+            android:id="@+id/tv_name_source"
+            android:gravity="center_vertical"
+            android:textColor="?attr/headerTitle"
+            android:layout_centerVertical="true"
+            android:text="24h"
+            android:textSize="@dimen/text_size_itemSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_toRightOf="@+id/tv_name_source"
+            android:id="@+id/tv_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jfrijfr"
+            android:textColor="?attr/headerTitle"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_size_itemSub"/>
+
+    </RelativeLayout>
+</RelativeLayout>
+<!-- From: file:/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/src/main/res/layout/item_video_goal.xml -->

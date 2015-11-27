@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingBottom="5dp"
+    >
+
+    <library.view.ImageViewCrop
+        android:id="@+id/thumbnail_video_goal"
+        android:layout_centerVertical="true"
+        style="@style/item_thumbnail_small"
+        />
+
+    <RelativeLayout
+        android:layout_toRightOf="@+id/thumbnail_video_goal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title_video_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:lines="2"
+            android:gravity="center_vertical"
+            android:ellipsize="end"
+            android:text="title"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_item"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+<!-- From: file:/Users/tamhuynh/AndroidStudioProjects/Bongda365/app/src/main/res/layout/item_video_football.xml -->
